@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '!=hvwfsaj0@mmm9za&s#%!i1$xk$*0gc+7i+a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://salty-temple-19736.herokuapp.com/', '127.0.0.1']
 
 POSTGRES_USER = os.environ.get('POSTGRES_USER')
 POSTGRES_PASSWORD = os.environ.get('POSTGRES_PASSWORD')
